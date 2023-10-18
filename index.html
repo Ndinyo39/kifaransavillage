@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kifaransa Village</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ecf6881b1e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.jpeg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#news"> News and Blog</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+       <div class="header-text">
+        <p>Kifaransa Village</p>
+        <h1>Nous sommes plus qu'un (e) Ami(e)</h1>
+      <section id="main">
+        <p>Kifaransa village is an organisation formed with the aim of promoting the French language by bringing together Francophiles and giving them the opportunity to meet.</p>
+      </section>
+       </div>
+    </div>
+   </div>
+   <!--------about----------- -->
+   <div class="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/T.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Us</h1>
+                <p>The KIFARANSA VILLAGE Was founded in 2020 by Mr. Sammy SIMIYU and co- founders devoted to promote French language, encourage reciprocal communication between all levels of learning it and reuniting the french community and those who have intrest and passion to learn with benefits that Come with learning french.
+                <br>The Kifaransa Village was incorporated in 2022 and, after established opérations in Nairobi in patnership with Alliance Française , it extended its opérations to Coastal  and Western/lake region adopting regional strategy under the regional exécutive officials in the other regions.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('diversities')">Diversities</p>
+                <p class="tab-links" onclick="opentab('aims')">Aims</p>
+                <p class="tab-links" onclick="opentab('objectives')">Objectives</p>
+            </div>
+            <div class="tab-contents active-tab" id="diversities">
+                <p>The Kifaransa Village is an inclusive association, which seeks to build, value, honor and diversity in French language. Associations that are diverse in age, race, ethnicity, faith, gender identity, , and perspectives are better associations. To this end, we seek to create a community where educators, from any background, can promote French language around the world.</p>
+            </div>
+            <div class="tab-contents" id="aims">
+                <p>KIFARANSA VILLAGE offers the invaluable opportunity to explore the language in real live situations by engaging with French speakers and exploring this cauthentic situations such as presentations, expositions, talents and music. It is a wonderful vehicle for bringing the subject of French to life as it reinforces what is learnt in the classroom through meaningful, unforgettable experiences with the aim of promoting the French language by bringing together Francophiles and giving them the opportunity.</p>
+            </div>
+            <div class="tab-contents" id="objectives">
+               <ul>
+                <li>To meet and Gather the French family;Family members to interact as it members from each other,networking and sharing French expériences.</li>
+                <li>To engage and share talents (music, poetry, storytelling, writing, photography, social media, organizing events, etc.)</li>
+                <li>To highlight talents mainly in French in the broad sense.</li>
+                <li>To engage the community, prove to them that the foreign language is worth their time, money and resources because it contributes to our daily lives and also matters to our future.</li>
+                <li>To facilitate language learning and teaching in différent ways and Mastery as it encourages reciprocal communication between all levels of French in terms of learning and teaching.</li>
+               </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!--  ---------Gallery-----------  -->
+   
+<div id="gallery">
+    <h1 class="sub-title">Gallery</h1>
+    <div class="full-img" id="fullImgBox">
+        <img src="images/pic13.jpeg" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+    </div>
+    <div class="img-gallery">
+        <img src="images/pic1.jpeg" onclick="openFullImg(this.src)">
+        <img src="images/pic2.jpeg" onclick="openFullImg(this.src)">
+        <img src="images/pic8.jpeg" onclick="openFullImg(this.src)">
+        <img src="images/pic13.jpeg" onclick="openFullImg(this.src)">
+        <img src="images/pic14.jpeg" onclick="openFullImg(this.src)">
+        <img src="images/pic9.jpeg" onclick="openFullImg(this.src)">
+        <img src="images/pic12.jpeg" onclick="openFullImg(this.src)">
+</div>
+</div>
+<!-- -----------Services----------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Our Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Mentorship Program</h2>
+                <p>Mentorship Development Program focuses on self and team development. The program can be customized to suit your company/institution/individual needs in line with your stated objectives.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Team Building</h2>
+                <p>We facilitate team building workshops to create positive relationships and synergy within french teaching schools,organizations/institutions.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Translation and interpretation</h2>
+                <p>Kifaransa village offers French Translation Services with its team of experienced translators all across specialized in diverse fields.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Customized Call Centre</h2>
+                <p>Offer customer Care services in French organisations , a first point of contact for calls from our English speaking customers and the primary point of contact for French speaking customers.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>French Tutoring</h2>
+                <p>Compassionate and dedicated french and teachers ready to deliver fully and quality knowledge to the student. Well versed in computer literacy hence making even the online teaching easy.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------News and Blog----------- -->
+<div id="news">
+    <div class="container">
+        <h1 class="sub-title">News and Blog</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Transalation.jpeg">
+                <div class="layer">
+                    <h3>Translation and interpretation</h3>
+                    <p>Kifaransa village offers French Translation Services with its team of experienced translators all across specialized in diverse fields.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Team building.jpeg">
+                <div class="layer">
+                    <h3>Team building</h3>
+                    <p>We facilitate team building workshops to create positive relationships and synergy within french teaching schools,organizations/institutions.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Tutoring.jpeg">
+                <div class="layer">
+                    <h3>Kifaransa Village French Festivals #KVFF</h3>
+                    <p>Compassionate and dedicated french and teachers ready to deliver fully and quality knowledge to the student.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- -----------Contact----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>kifaransavillage1@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+254791814862 <br><i class="fa-solid fa-square-phone"></i>+254755865564</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/kifaransa-village-341588251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://instagram.com/kifaransa_village?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://youtu.be/SgtMlzWxClQ?si=Fi9w_GPLxRDo4Z8H"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <a href="images/Brochure (2).pdf" dwnload class="btn btn2">Download Our Brochure</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://formsubmit.co/kifaransavillage1@email.com" method="POST">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Douglas. Made by <i class="fa-solid fa-heart"></i> Douglas Ndinyo</p>
+    </div>
+</div>
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+
+<script>
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg = document.getElementById("fullImg");
+
+    function openFullImg(pic){
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+    }
+    function closeFullImg(){
+        fullImgBox.style.display = "none"; 
+    }
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbzP6hNqYt7A0YPTHagaID1zjDvgWWqkMlFH0R3A9ZUrcqX89CpDH4cehKy5QUr0AjFYPA/exec>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
