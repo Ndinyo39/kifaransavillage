@@ -170,6 +170,9 @@
             </div>
             <div class="contact-right">
                 <form action="https://formsubmit.co/kifaransavillage1@gmail.com" method="POST">
+                    <!-- --------Disable Captcha----------  -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/success.html">
                     <input type="text" name="Name" placeholder="Your Name" required>
                     <input type="email" name="Email" placeholder="Your Email" required>
                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
